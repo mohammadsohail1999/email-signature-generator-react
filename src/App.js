@@ -1,15 +1,10 @@
 import "./App.css";
 import EmailSignatureTemp from "./Components/EmailSignatureTemp/EmailSignatureTemp";
-import { useContext } from "react";
-import { DataContext } from "./Context/ContextStore";
+
 import { Box, Grid } from "@mui/material";
 import Form from "./Components/Form/Form";
 
 function App() {
- 
-
-  // const state = useContext(DataContext);
-
   return (
     <div className="App">
       <Box sx={{ flexGrow: 1 }}>
@@ -22,9 +17,6 @@ function App() {
           </Grid>
         </Grid>
       </Box>
-
-      {/* <button onClick={copyToClipboard}>copy</button>
-      <EmailSignatureTemp /> */}
     </div>
   );
 }
