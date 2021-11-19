@@ -1,0 +1,34 @@
+.form_wrapper {
+  height: 100vh;
+  overflow: auto;
+
+  background-color: rgb(19, 30, 43);
+  color: #33475b;
+
+  /* background: red; */
+}
+
+.form_wrapper h3 {
+  color: #fff;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+}
+
+.field_wrapper {
+  margin-bottom: 1rem;
+}
+
+.form_wrapper input {
+  background: whitesmoke;
+}
+
+.clear {
+  margin: 1rem 0 !important;
+}
